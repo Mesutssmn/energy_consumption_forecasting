@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pre-trained model files (optional — include if you want instant Streamlit loading)
+# Uncomment below to exclude them from the repo:
+# models/
+
+# Large archive files not needed for the app
+archive/COMED_hourly.csv
+archive/DAYTON_hourly.csv
+archive/DEOK_hourly.csv
+archive/DOM_hourly.csv
+archive/DUQ_hourly.csv
+archive/EKPC_hourly.csv
+archive/FE_hourly.csv
+archive/NI_hourly.csv
+archive/PJME_hourly.csv
+archive/PJMW_hourly.csv
+archive/PJM_Load_hourly.csv
+archive/est_hourly.paruqet
+archive/pjm_hourly_est.csv

@@ -1,0 +1,43 @@
+{
+  "split_date": "2017-12-31",
+  "lookback": 60,
+  "lstm_units": 64,
+  "epochs": 100,
+  "n_estimators": 1000,
+  "learning_rate": 0.05,
+  "feat_cols": [
+    "dayofweek",
+    "month",
+    "quarter",
+    "year",
+    "dayofyear",
+    "is_weekend",
+    "weekofyear",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_30",
+    "lag_365",
+    "roll_mean_7",
+    "roll_std_7",
+    "roll_min_7",
+    "roll_max_7",
+    "roll_mean_30",
+    "roll_std_30",
+    "roll_min_30",
+    "roll_max_30"
+  ],
+  "best_model": "LSTM",
+  "metrics": {
+    "LSTM": {
+      "RMSE": 786.3267058543804,
+      "MAE": 617.7192284399225,
+      "MAPE": 4.013704688503968
+    },
+    "XGBoost": {
+      "RMSE": 816.6454350822738,
+      "MAE": 632.9802825218023,
+      "MAPE": 4.1044022779980125
+    }
+  }
+}
